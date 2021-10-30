@@ -10,7 +10,15 @@
   <body>
     <a href="index.html">Home Page</a>
 
-    <h1>Hello World</h1>
+    <!-- 'Internal' CSS takes preference over 'External' -->
+    <style>
+      h1 {
+        color: darkorange;
+      }
+    </style>
+
+    <!-- 'InLine' Style takes preference over 'Internal' or 'External' -->
+    <h1 style="color: greenyellow">Hello World</h1>
     <h1>Hello World</h1>
     <h1>Hello World</h1>
     <h2>Hello People</h2>
