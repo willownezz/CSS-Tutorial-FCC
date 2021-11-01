@@ -1,0 +1,47 @@
+#first {
+  color: rgb(15, 15, 247);
+  background-color: rgb(182, 170, 156);
+}
+#second {
+  color: rgb(127, 255, 212);
+  background: rgb(0, 0, 0);
+}
+#third {
+  color: rgb(105, 45, 161);
+  background-color: rgba(222, 222, 222, 0.9);
+}
+/* 
+HEX #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+*/
+#forth {
+  color: #ff0000;
+}
+#rgb {
+  width: 300px;
+  height: 200px;
+  font-weight: bolder;
+  font-size: 1.4em;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  animation: rgbcolors 2s infinite;
+}
+
+@keyframes rgbcolors {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  50% {
+    color: rgb(0, 255, 0);
+  }
+  80% {
+    color: rgb(0, 0, 255);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+
+html {
+  background-color: rgba(10, 10, 200, 0.3);
+}
