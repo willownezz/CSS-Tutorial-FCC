@@ -23,6 +23,17 @@
   height: 50vh;
   background-color: rgb(44, 82, 82);
 }
+.navbar {
+  background-color: blue;
+  height: 100px;
+  color: white;
+  font-size: 3em;
+}
+.banner2 {
+  background-color: red;
+  /* min-height: 100vh; */
+  min-height: calc(100vh - 100px);
+}
 
 h1 {
   color: blueviolet;
@@ -30,4 +41,11 @@ h1 {
   width: 400px;
   height: 45px;
   background-color: rgb(120, 230, 250);
+}
+h2 {
+  color: red;
+  font-size: 60px;
+}
+p {
+  font-size: 40px;
 }
