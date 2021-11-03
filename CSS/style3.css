@@ -1,19 +1,51 @@
 /* Font-size font-family */
 
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap");
+/* Font impots */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
+/* Classes */
 .fontTest {
-  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main {
+  /* font-family: Verdana; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 55px;
+}
+.one {
+  font-weight: 100;
+  font-size: 40px;
+  font-style: italic;
+  text-align: right;
+  letter-spacing: 0.5em;
+}
+.two {
+  font-weight: 900;
   font-size: 25px;
+  text-align: right;
+  line-height: 1.5em;
+}
+.three {
+  font-style: italic;
+  font-weight: 900;
+  font-family: monospace;
+  font-size: 15px;
+  word-spacing: 0.5em;
+  text-decoration: underline;
+}
+.subheading {
+  font-style: normal;
+  text-indent: 50px;
 }
 
+html {
+  background-color: rgb(221, 213, 213);
+}
 body {
   /* font-family: Helvetica; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
 }
-h1,
-h2 {
-  /* font-family: Verdana; */
-  font-family: "Courier New", Courier, monospace;
-  font-size: 50px;
+a {
+  text-decoration: none;
 }
