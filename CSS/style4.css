@@ -1,13 +1,49 @@
 /* CSS Box Model */
+* {
+  margin: 0;
+}
 h1 {
-  background-color: red;
-  padding-top: 20px;
+  background-color: royalblue;
+  /* padding-top: 20px;
   padding-bottom: 40px;
   padding-left: 20px;
-  padding-right: 25px;
+  padding-right: 25px; */
+  padding: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 10px;
+  border-color: blueviolet;
+  border-bottom-style: dashed;
+  border-bottom-width: 9px;
+  border-bottom-color: black;
 }
 p {
   background-color: blue;
   color: white;
-  padding: 30px 40px 90px 40px;
+  padding: 20px 20px 30px 30px;
+  margin: 50px 20px;
+  border: 15px solid purple;
+}
+.buttons {
+  margin: 3rem;
+}
+a {
+  background-color: greenyellow;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: rgb(34, 32, 32);
+}
+#one {
+  border: 0.2rem solid #222;
+  margin: 0 20px;
+}
+#two {
+  outline-width: 0.2rem;
+  outline-style: solid;
+  outline-color: rgb(34, 32, 32);
+  /* outline-offset: 10px; */
+  /* outline-offset: -10px; */
 }
