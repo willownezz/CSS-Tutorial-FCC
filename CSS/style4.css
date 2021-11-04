@@ -46,6 +46,7 @@ a {
   outline-color: rgb(34, 32, 32);
   outline: 0.2rem solid #222;
   outline-offset: 10px;
+  outline-offset: -10px;
   /* outline-offset: 10px; */
   /* outline-offset: -10px; */
 }
