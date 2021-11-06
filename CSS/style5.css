@@ -1,0 +1,12 @@
+/* Default Display Property */
+
+.block {
+  background-color: blue;
+  color: white;
+  display: inline;
+}
+.inline {
+  background-color: green;
+  color: white;
+  display: block;
+}
