@@ -1,12 +1,62 @@
 /* Default Display Property */
-
+/* body {
+  text-align: center;
+}
 .block {
   background-color: blue;
   color: white;
-  display: inline;
+  width: 200px;
+  margin: 10px auto;
 }
 .inline {
   background-color: green;
   color: white;
+} */
+/* Mobile Navbar */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background-color: #222;
+  color: brown;
   display: block;
+  padding: 10px 10px;
+  margin: 10px;
+}
+.link2 {
+  font-size: 40px;
+  background-color: red;
+  margin: 40px;
+  display: inline;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.box-1 {
+  background-color: red;
+  padding: 20px;
+}
+.box-2 {
+  background-color: green;
+  padding: 10px;
+}
+.box-3 {
+  background-color: blue;
+  padding: 5px;
 }
