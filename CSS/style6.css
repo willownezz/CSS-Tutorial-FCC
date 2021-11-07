@@ -1,3 +1,33 @@
 * {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+div {
+  height: 400px;
+  color: red;
+}
+.big-img {
+  background: url("/CSS-Tutorial-FCC/images/citrus.jpg");
+  border: 5px solid purple;
+  background-size: cover;
+}
+.small-img {
+  background: url("/CSS-Tutorial-FCC/images/citrus-small.jpg");
+  background-repeat: repeat-x;
+  border: 5px solid red;
+}
+.folder-img {
+  background: url("/CSS-Tutorial-FCC/images/xmas-small.jpg");
+  border: 5px solid blue;
+  background-repeat: no-repeat;
+}
+div:hover {
+  border: 8px solid #222;
+  border-style: groove;
+}
+.hover-1:hover {
+  border: 8px solid red;
+  border-style: dashed;
   background-color: black;
 }
