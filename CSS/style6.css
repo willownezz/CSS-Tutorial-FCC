@@ -1,33 +1,69 @@
 * {
-  background-color: aliceblue;
+  /* background-color: burlywood; */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 div {
-  height: 400px;
-  color: red;
+  /* min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; */
 }
 .big-img {
   background: url("/CSS-Tutorial-FCC/images/citrus.jpg");
   border: 5px solid purple;
   background-size: cover;
+  background-attachment: fixed;
 }
 .small-img {
   background: url("/CSS-Tutorial-FCC/images/citrus-small.jpg");
   background-repeat: repeat-x;
   border: 5px solid red;
+  /* background-attachment: fixed; */
 }
 .folder-img {
   background: url("/CSS-Tutorial-FCC/images/xmas-small.jpg");
   border: 5px solid blue;
   background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
 }
 div:hover {
-  border: 8px solid #222;
-  border-style: groove;
+  /* border: 8px solid #222;
+  border-style: groove; */
 }
 .hover-1:hover {
-  border: 8px solid red;
+  /* border: 8px solid red;
   border-style: dashed;
-  background-color: black;
+  background-color: black; */
+}
+body {
+}
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  /* display: flex; */
+}
+.one {
+  background: linear-gradient(magenta, cyan);
+}
+.two {
+  background: linear-gradient(to top, magenta, cyan);
+}
+.three {
+  background: linear-gradient(135deg, blue, purple);
+}
+.four {
+  background: linear-gradient(-135deg, purple, blue);
+}
+.five {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+}
+.six {
+  background: linear-gradient(red, green);
 }
