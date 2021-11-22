@@ -65,5 +65,5 @@ div {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
 }
 .six {
-  background: linear-gradient(red, green);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
 }
