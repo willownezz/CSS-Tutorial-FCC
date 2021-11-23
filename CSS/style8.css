@@ -10,7 +10,7 @@ img {
 p {
   clear: left;
 }
-div {
+.div-wrap {
   height: 200px;
   width: 33.3%;
   float: left;
@@ -29,4 +29,24 @@ h1 {
 }
 .four {
   background: darkslategray;
+}
+.div-two {
+  border: 3px solid blueviolet;
+  background: gray;
+  margin-top: 40px;
+  position: relative;
+}
+.p-one {
+  background: lightseagreen;
+}
+.p-two {
+  background: yellowgreen;
+  /* position: relative; */
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
