@@ -52,3 +52,29 @@ div:hover {
   border-radius: 50%;
   background-color: gold;
 }
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  margin: 15px;
+  transition: all 1s linear;
+}
+div:hover {
+  transform: translateY(100px);
+}
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
