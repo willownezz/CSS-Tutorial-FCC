@@ -1,0 +1,55 @@
+* {
+  color: rgb(39, 80, 56);
+  background: darksalmon;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: darkred;
+}
+.p-one {
+  letter-spacing: 20px;
+}
+div h1 {
+  color: rgb(116, 89, 89);
+}
+div > h1 {
+  color: blue;
+}
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+p:hover {
+  font-size: 40px;
+  color: red;
+}
+.header-two:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  background: slategray;
+}
+a:link {
+  color: chartreuse;
+  background: black;
+}
+a:visited {
+  color: aquamarine;
+  background: black;
+}
+a:active {
+  color: yellow;
+}
