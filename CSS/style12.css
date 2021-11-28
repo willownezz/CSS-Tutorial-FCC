@@ -42,12 +42,12 @@ div {
   background-color: deeppink;
   transform: skew(20deg, 20deg);
 }
-div:hover {
-  /* background-color: gold;
+/* div:hover {
+  background-color: gold;
   transition-property: background, border-radius;
   transition-duration: 0.2s, 2s;
-  transition-delay: 0.3s; */
-}
+  transition-delay: 0.3s;
+} */
 .three-3:hover {
   border-radius: 50%;
   background-color: gold;
