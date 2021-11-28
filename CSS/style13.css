@@ -1,0 +1,46 @@
+div {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  color: aliceblue;
+}
+.transition {
+  background: cornflowerblue;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: orangered;
+  transform: translateX(100px);
+}
+.animation {
+  background: crimson;
+  animation: move 5s infinite;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite; */
+}
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  15% {
+    transform: translateX(20px);
+    background: purple;
+  }
+  50% {
+    transform: translateX(100px);
+    background: hotpink;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: grey;
+  }
+  90% {
+    transform: translateX(20px);
+    background: midnightblue;
+  }
+  100% {
+    transform: translateX(0px);
+    background: crimson;
+  }
+}
